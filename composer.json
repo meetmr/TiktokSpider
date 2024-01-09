@@ -1,0 +1,19 @@
+{
+    "name": "meetmr/tiktok-spider",
+    "autoload": {
+        "psr-4": {
+            "spider\\TiktokSpider\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "meetmr",
+            "email": "1781634625@qq.com"
+        }
+    ],
+    "require": {
+      "php": ">=8.0.2",
+      "guzzlehttp/guzzle": "~7.0",
+      "ext-curl": "*"
+    }
+}
