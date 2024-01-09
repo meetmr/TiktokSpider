@@ -2,6 +2,7 @@
 
 
 Tiktok 采集库，支持采集Tiktok用户、视频信息等，使用php开发，本项目依赖xbogus，项目文件已经包含，请使用nodejs
+
 使用时，请修改TiktokSpider.php 文件中的
 ```php
     private $cmdRoot = "node D:\mycode\\xbogus\index.js \"%s\"";
@@ -12,9 +13,9 @@ Tiktok 采集库，支持采集Tiktok用户、视频信息等，使用php开发�
 - 支持采集抖音用户基本信息
 - 支持采集抖音用户所有发布视频
 - 支持获取视频基本信息 
-- 支持采集视频所以评论
+- 支持采集视频所有评论
 - 支持下载视频
-- 支持搜索关键词
+- 支持搜索关键词采集
 
 ### demo
 #### 1、获取抖音用户基本信息
