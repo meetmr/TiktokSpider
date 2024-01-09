@@ -36,7 +36,7 @@ $data = $tiktok->getUserItemList(new GetListItemOptions("cnn","",20,0,1));
 print_r($data);
 ```
 
-#### 3、采集视频所以评论
+#### 3、采集视频所有评论
 ```php
 $data = (new TiktokSpider("","","",[
     "ip" => "127.0.0.1:49881"
